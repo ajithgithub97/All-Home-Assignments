@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LeadsExecution">
+  <test thread-count="2" name="LeadTest" parallel="classes" verbose="5">
+    <classes>
+    <class name="testcases.TC_001CreatLead"/>
+    <class name="testcases.TC_001EditLead"/>
+    <class name="testcases.TC_001MergeLead"/>
+      <class name="testcases.TC_001DeleteLead"/>    
+    </classes>
+  </test> <!-- LeadTest -->
+</suite> <!-- LeadsExecution -->
